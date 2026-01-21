@@ -1,0 +1,14 @@
+[package]
+name = "external_cue"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cpal = "0.15"
+eframe = "0.22"
+egui = "0.22"
+ringbuf = "0.3"
+# rdev is optional; we'll add hotkey wiring later
+rdev = "0.5"
+winapi = { version = "0.3", features = ["winuser", "windef", "mmdeviceapi", "audioclient", "avrt", "combaseapi", "synchapi", "handleapi", "winbase", "mmreg", "ksmedia", "objbase", "objidl", "propsys", "propidl", "oleauto", "functiondiscoverykeys_devpkey"] }
+windows = { version = "0.48", features = ["Win32_Media_Audio", "Win32_System_Com", "Win32_Foundation", "Win32_System_Threading"] }
