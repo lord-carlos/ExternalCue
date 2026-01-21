@@ -6,6 +6,8 @@ Quick overview for working in this repository.
 - Keep changes small and focused.
 - After any significant code change, always run:
   - `cargo build`
+- If you want the user to test something run:
+  - `cargo run`
 
 ## Project Shape
 - UI: `eframe`/`egui`
