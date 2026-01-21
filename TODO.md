@@ -12,6 +12,9 @@ Make ExternalCue run on both Windows and macOS with equivalent functionality:
 - Windows uses WASAPI (shared + exclusive).
 - macOS uses CoreAudio (shared/exclusive concept differs).
 
+## Other
+ - Once you succesfully implemented a feature or done with a part, mark it as done in this list.
+
 ## 1) Architecture Cleanup (Platform Abstraction)
 - [ ] Split the backend into platform modules:
   - `src/audio/windows_wasapi_backend.rs`
